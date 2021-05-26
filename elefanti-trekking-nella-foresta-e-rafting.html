@@ -10,6 +10,64 @@
     <link rel="shortcut icon" href="#">
     <link rel="stylesheet" type="text/css" href="assets/css/screen.css" />
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:400,300italic,300,400italic,700,700italic|Playfair+Display:400,700,400italic,700italic" />
+    <style>
+        .comment-author {
+            text-decoration: underline;
+            font-weight: 900;
+        }
+        
+        .comment-date {
+            font-size: smaller;
+            font-style: italic;
+            font-weight: 100;
+            padding-left: 2rem;
+            padding-right: 2rem;
+        }
+        
+        .comments {
+            width: 100%;
+        }
+        
+        .comment p {
+            margin-bottom: 0.8rem;
+        }
+        
+        .comment {
+            width: 80%;
+            margin-top: 2rem;
+        }
+        
+        .comment .comment-info,
+        .comment .comment-meta {
+            margin-bottom: 0;
+        }
+        
+        .left {
+            margin-right: auto;
+        }
+        
+        .right {
+            margin-left: auto;
+        }
+        
+        .right .comment-info,
+        .right .comment-content,
+        .right .comment-meta {
+            float: right;
+        }
+        
+        .right .comment-meta {
+            padding-left: 2rem;
+        }
+        
+        .right .comment-content {
+            text-align: end;
+        }
+        
+        .comment.right {
+            padding-bottom: 6rem;
+        }
+    </style>
 </head>
 
 <body class="post-template">
@@ -75,7 +133,31 @@
                     <div id="disqus_thread">
                         <hr>
                         <h5>Comment Section</h5>
-                        <br>
+                        <div class="comments">
+                            <div class="comment left">
+                                <div class="comment-info">
+                                    <p class="comment-meta">
+                                        <span class="comment-author">Yvonne</span>
+                                        <span class="comment-date">January 26, 2018 at 11:42 am</span>
+                                    </p>
+                                </div>
+                                <div class="comment-content">
+                                    <p>Che ridere, Giada! Sono bellissimi questi animale, vero?</p>
+                                </div>
+                            </div>
+                            <div class="comment right">
+                                <div class="comment-info">
+                                    <p class="comment-meta">
+                                        <span class="comment-author">Giada Demarchi</span>
+                                        <span class="comment-date">February 8, 2018 at 6:46 am</span>
+                                    </p>
+                                </div>
+                                <div class="comment-content">
+                                    <p>Si sono bellissimi! Pieni di peli duri però sono simpatici😊</p>
+                                </div>
+                            </div>
+
+                        </div>
                     </div>
                 </article>
             </div>
